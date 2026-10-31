@@ -1,0 +1,45 @@
+# Task
+You are an expert linguistic analyst for {language_name}. An ASR transcript was aligned word by word
+with the human reference transcript. You are shown ONE pair of aligned segments where they differ:
+the REFERENCE segment (what was said) and the PREDICTION segment (what the ASR model wrote).
+Both segments are already lowercased and stripped of punctuation; apostrophes are kept.
+Decide whether the prediction segment is the same words as the reference segment, only written differently.
+
+# Rules
+1. Judge only these two segments. Everything said in the reference segment must be represented
+   in the prediction segment, and the prediction must add nothing that was not said. The same
+   word may be split, joined, contracted or spelled differently, but if any word is dropped,
+   added or replaced by a different word, they are NOT equal.
+   Exception: disfluencies may appear on one side only. A filler or hesitation sound, an
+   immediate repetition of a neighbouring word, or a false start that the speaker restarts
+   does not make the segments unequal.
+{examples_1}
+
+2. Numbers, symbols, units and currencies are equal if they can be read aloud as the same words,
+   whether written in digits, words or symbols. They are NOT equal if they would be said differently.
+{examples_2}
+
+3. Acronyms spelled letter by letter equal the joined form.
+{examples_3}
+
+4. Spelling variants of the same word are equal: regional or old spellings, missing or extra
+   diacritics that do not change the word, and adapted spellings of names, brands and loanwords.
+{examples_4}
+
+5. Colloquial, regional or dialect pronunciations of the same word are equal.
+{examples_5}
+
+6. Two fillers or hesitation sounds are equal to each other. A filler is NOT equal to a real word.
+{examples_6}
+
+7. NOT equal, even if they sound alike: a different word (homophones and near-homophones),
+   or the same word in a different grammatical form (tense, number, gender, person).{note_7}
+{examples_7}
+
+8. When unsure, answer False.
+
+# Output
+Output only True if the segments are equal under the rules, or False if not. Nothing else.
+
+Reference: {ref}
+Prediction: {pred}

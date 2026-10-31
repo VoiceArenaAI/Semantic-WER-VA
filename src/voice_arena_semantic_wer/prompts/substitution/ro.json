@@ -1,0 +1,164 @@
+{
+  "language_name": "Romanian",
+  "examples": {
+    "1": [
+      {
+        "reference": "o dată",
+        "prediction": "odată",
+        "equal": true
+      },
+      {
+        "reference": "ă acuma",
+        "prediction": "acum",
+        "equal": true,
+        "note": "filler on one side only"
+      },
+      {
+        "reference": "eu eu îs",
+        "prediction": "eu sunt",
+        "equal": true,
+        "note": "repetition on one side only"
+      },
+      {
+        "reference": "ca casa",
+        "prediction": "casa",
+        "equal": true,
+        "note": "false start on one side only"
+      },
+      {
+        "reference": "într o",
+        "prediction": "într",
+        "equal": false,
+        "note": "\"o\" dropped"
+      },
+      {
+        "reference": "ă merge",
+        "prediction": "merg",
+        "equal": false,
+        "note": "\"merge\" replaced"
+      }
+    ],
+    "2": [
+      {
+        "reference": "douăzeci și cinci",
+        "prediction": "25",
+        "equal": true
+      },
+      {
+        "reference": "două mii douăzeci",
+        "prediction": "2020",
+        "equal": true
+      },
+      {
+        "reference": "cincizeci de lei",
+        "prediction": "50 de lei",
+        "equal": true
+      },
+      {
+        "reference": "douăzeci și unu",
+        "prediction": "2 și unu",
+        "equal": false
+      },
+      {
+        "reference": "cincisprezece",
+        "prediction": "50",
+        "equal": false
+      }
+    ],
+    "3": [
+      {
+        "reference": "b n r",
+        "prediction": "bnr",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "reference": "ești",
+        "prediction": "esti",
+        "equal": true
+      },
+      {
+        "reference": "și",
+        "prediction": "şi",
+        "equal": true
+      },
+      {
+        "reference": "sunt",
+        "prediction": "sînt",
+        "equal": true
+      },
+      {
+        "reference": "facebook",
+        "prediction": "feisbuc",
+        "equal": true
+      }
+    ],
+    "5": [
+      {
+        "reference": "acum",
+        "prediction": "acuma",
+        "equal": true
+      },
+      {
+        "reference": "aici",
+        "prediction": "aicea",
+        "equal": true
+      },
+      {
+        "reference": "sunt",
+        "prediction": "îs",
+        "equal": true
+      },
+      {
+        "reference": "eu",
+        "prediction": "io",
+        "equal": true
+      },
+      {
+        "reference": "omul",
+        "prediction": "omu",
+        "equal": true
+      }
+    ],
+    "6": [
+      {
+        "reference": "ă",
+        "prediction": "îî",
+        "equal": true
+      },
+      {
+        "reference": "ăă",
+        "prediction": "a",
+        "equal": false
+      }
+    ],
+    "7": [
+      {
+        "reference": "acea",
+        "prediction": "aceea",
+        "equal": false
+      },
+      {
+        "reference": "fi",
+        "prediction": "fii",
+        "equal": false
+      },
+      {
+        "reference": "asta",
+        "prediction": "astea",
+        "equal": false
+      },
+      {
+        "reference": "poți",
+        "prediction": "pot",
+        "equal": false
+      },
+      {
+        "reference": "o",
+        "prediction": "a",
+        "equal": false
+      }
+    ]
+  }
+}

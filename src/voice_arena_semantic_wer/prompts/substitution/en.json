@@ -1,0 +1,154 @@
+{
+  "language_name": "US English",
+  "examples": {
+    "1": [
+      {
+        "reference": "thimble full",
+        "prediction": "thimbleful",
+        "equal": true
+      },
+      {
+        "reference": "uh gonna",
+        "prediction": "going to",
+        "equal": true,
+        "note": "filler on one side only"
+      },
+      {
+        "reference": "i i'm",
+        "prediction": "i am",
+        "equal": true,
+        "note": "repetition on one side only"
+      },
+      {
+        "reference": "th the",
+        "prediction": "the",
+        "equal": true,
+        "note": "false start on one side only"
+      },
+      {
+        "reference": "about it",
+        "prediction": "bout",
+        "equal": false,
+        "note": "\"it\" dropped"
+      },
+      {
+        "reference": "uh went",
+        "prediction": "want",
+        "equal": false,
+        "note": "\"went\" replaced"
+      }
+    ],
+    "2": [
+      {
+        "reference": "nineteen ninety",
+        "prediction": "1990",
+        "equal": true
+      },
+      {
+        "reference": "five dollars",
+        "prediction": "$5",
+        "equal": true
+      },
+      {
+        "reference": "three thirty",
+        "prediction": "3:30",
+        "equal": true
+      },
+      {
+        "reference": "twenty one",
+        "prediction": "2 one",
+        "equal": false
+      },
+      {
+        "reference": "fifteen",
+        "prediction": "50",
+        "equal": false
+      }
+    ],
+    "3": [
+      {
+        "reference": "f b i",
+        "prediction": "fbi",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "reference": "colour",
+        "prediction": "color",
+        "equal": true
+      },
+      {
+        "reference": "mc donalds",
+        "prediction": "mcdonalds",
+        "equal": true
+      }
+    ],
+    "5": [
+      {
+        "reference": "going to",
+        "prediction": "gonna",
+        "equal": true
+      },
+      {
+        "reference": "because",
+        "prediction": "'cause",
+        "equal": true
+      },
+      {
+        "reference": "yes",
+        "prediction": "yeah",
+        "equal": true
+      },
+      {
+        "reference": "kind of",
+        "prediction": "kinda",
+        "equal": true
+      }
+    ],
+    "6": [
+      {
+        "reference": "uh",
+        "prediction": "um",
+        "equal": true
+      },
+      {
+        "reference": "um",
+        "prediction": "and",
+        "equal": false
+      }
+    ],
+    "7": [
+      {
+        "reference": "their",
+        "prediction": "they are",
+        "equal": false
+      },
+      {
+        "reference": "too",
+        "prediction": "two",
+        "equal": false
+      },
+      {
+        "reference": "then",
+        "prediction": "than",
+        "equal": false
+      },
+      {
+        "reference": "a",
+        "prediction": "the",
+        "equal": false
+      },
+      {
+        "reference": "is",
+        "prediction": "was",
+        "equal": false
+      },
+      {
+        "reference": "got",
+        "prediction": "get",
+        "equal": false
+      }
+    ]
+  }
+}

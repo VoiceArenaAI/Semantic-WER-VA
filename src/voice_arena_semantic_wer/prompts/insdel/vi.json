@@ -1,0 +1,77 @@
+{
+  "language_name": "Vietnamese",
+  "notes": {
+    "1": "In Vietnamese \"thì\", \"là\", \"cái\", \"mà\" are also filled pauses when they only hesitate;\n   used with their normal meaning they are real words (rule 4)."
+  },
+  "examples": {
+    "1": [
+      {
+        "sentence": "mình nghĩ ⟨ ờ ⟩ là được",
+        "equal": true,
+        "note": "filled pause"
+      },
+      {
+        "sentence": "⟨ thì ⟩ mình nghĩ là được",
+        "equal": true,
+        "note": "filled pause"
+      },
+      {
+        "sentence": "⟨ ừm ⟩ hợp lý đó",
+        "equal": true,
+        "note": "non-lexical backchannel"
+      },
+      {
+        "sentence": "vui lắm ⟨ ha ha ⟩",
+        "equal": true,
+        "note": "laughter"
+      },
+      {
+        "sentence": "⟨ ồ ⟩ mình không biết",
+        "equal": true,
+        "note": "reaction sound"
+      }
+    ],
+    "2": [
+      {
+        "sentence": "mình ⟨ mình ⟩ đi chợ",
+        "equal": true
+      },
+      {
+        "sentence": "em về ⟨ em về ⟩ nhà",
+        "equal": true
+      }
+    ],
+    "3": [
+      {
+        "sentence": "⟨ nh ⟩ nhà mình ở đây",
+        "equal": true
+      },
+      {
+        "sentence": "⟨ đ ⟩ đi học",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "sentence": "mình đi ⟨ về ⟩ nhà",
+        "equal": false
+      },
+      {
+        "sentence": "mình ⟨ không ⟩ biết",
+        "equal": false
+      },
+      {
+        "sentence": "mình trả ⟨ hai mươi ⟩ nghìn",
+        "equal": false
+      },
+      {
+        "sentence": "mình gặp ⟨ lan ⟩ hôm qua",
+        "equal": false
+      },
+      {
+        "sentence": "⟨ dạ ⟩ em đi rồi",
+        "equal": false
+      }
+    ]
+  }
+}

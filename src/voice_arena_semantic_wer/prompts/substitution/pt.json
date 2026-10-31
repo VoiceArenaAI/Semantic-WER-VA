@@ -1,0 +1,169 @@
+{
+  "language_name": "Brazilian Portuguese",
+  "examples": {
+    "1": [
+      {
+        "reference": "de um",
+        "prediction": "dum",
+        "equal": true
+      },
+      {
+        "reference": "hum pra",
+        "prediction": "para",
+        "equal": true,
+        "note": "filler on one side only"
+      },
+      {
+        "reference": "eu eu tô",
+        "prediction": "eu estou",
+        "equal": true,
+        "note": "repetition on one side only"
+      },
+      {
+        "reference": "ca casa",
+        "prediction": "casa",
+        "equal": true,
+        "note": "false start on one side only"
+      },
+      {
+        "reference": "para o",
+        "prediction": "pra",
+        "equal": false,
+        "note": "\"o\" dropped"
+      },
+      {
+        "reference": "hum foi",
+        "prediction": "vai",
+        "equal": false,
+        "note": "\"foi\" replaced"
+      }
+    ],
+    "2": [
+      {
+        "reference": "dois mil e vinte",
+        "prediction": "2020",
+        "equal": true
+      },
+      {
+        "reference": "vinte e cinco",
+        "prediction": "25",
+        "equal": true
+      },
+      {
+        "reference": "cinquenta reais",
+        "prediction": "50 reais",
+        "equal": true
+      },
+      {
+        "reference": "vinte e um",
+        "prediction": "2 um",
+        "equal": false
+      },
+      {
+        "reference": "quinze",
+        "prediction": "50",
+        "equal": false
+      }
+    ],
+    "3": [
+      {
+        "reference": "i n s s",
+        "prediction": "inss",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "reference": "você",
+        "prediction": "voce",
+        "equal": true
+      },
+      {
+        "reference": "fato",
+        "prediction": "facto",
+        "equal": true
+      },
+      {
+        "reference": "ela",
+        "prediction": "ella",
+        "equal": true
+      },
+      {
+        "reference": "coisa",
+        "prediction": "cousa",
+        "equal": true
+      },
+      {
+        "reference": "facebook",
+        "prediction": "feicebuque",
+        "equal": true
+      }
+    ],
+    "5": [
+      {
+        "reference": "para",
+        "prediction": "pra",
+        "equal": true
+      },
+      {
+        "reference": "está",
+        "prediction": "tá",
+        "equal": true
+      },
+      {
+        "reference": "você",
+        "prediction": "cê",
+        "equal": true
+      },
+      {
+        "reference": "não é",
+        "prediction": "né",
+        "equal": true
+      }
+    ],
+    "6": [
+      {
+        "reference": "hum",
+        "prediction": "hã",
+        "equal": true
+      },
+      {
+        "reference": "hum",
+        "prediction": "um",
+        "equal": false
+      }
+    ],
+    "7": [
+      {
+        "reference": "é",
+        "prediction": "e",
+        "equal": false
+      },
+      {
+        "reference": "há",
+        "prediction": "a",
+        "equal": false
+      },
+      {
+        "reference": "aí",
+        "prediction": "ai",
+        "equal": false
+      },
+      {
+        "reference": "mais",
+        "prediction": "mas",
+        "equal": false
+      },
+      {
+        "reference": "falou",
+        "prediction": "fala",
+        "equal": false
+      },
+      {
+        "reference": "sozinho",
+        "prediction": "sozinha",
+        "equal": false
+      }
+    ]
+  }
+}

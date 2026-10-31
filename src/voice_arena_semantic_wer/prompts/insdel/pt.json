@@ -1,0 +1,77 @@
+{
+  "language_name": "Brazilian Portuguese",
+  "notes": {
+    "1": "In Portuguese \"é\" is also a filled pause when it only hesitates; as the verb \"is\" it is a real word (rule 4)."
+  },
+  "examples": {
+    "1": [
+      {
+        "sentence": "eu acho ⟨ hum ⟩ que sim",
+        "equal": true,
+        "note": "filled pause"
+      },
+      {
+        "sentence": "⟨ é ⟩ eu acho que sim",
+        "equal": true,
+        "note": "filled pause"
+      },
+      {
+        "sentence": "⟨ uhum ⟩ faz sentido",
+        "equal": true,
+        "note": "non-lexical backchannel"
+      },
+      {
+        "sentence": "foi muito engraçado ⟨ haha ⟩",
+        "equal": true,
+        "note": "laughter"
+      },
+      {
+        "sentence": "⟨ ah ⟩ eu não sabia",
+        "equal": true,
+        "note": "reaction sound"
+      }
+    ],
+    "2": [
+      {
+        "sentence": "eu ⟨ eu ⟩ fui lá",
+        "equal": true
+      },
+      {
+        "sentence": "a gente ⟨ a gente ⟩ foi cedo",
+        "equal": true
+      }
+    ],
+    "3": [
+      {
+        "sentence": "⟨ qu ⟩ quando a gente chegou",
+        "equal": true
+      },
+      {
+        "sentence": "⟨ fo ⟩ foi ótimo",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "sentence": "a gente foi ⟨ embora ⟩ cedo",
+        "equal": false
+      },
+      {
+        "sentence": "⟨ não ⟩ foi bom",
+        "equal": false
+      },
+      {
+        "sentence": "paguei ⟨ vinte ⟩ reais",
+        "equal": false
+      },
+      {
+        "sentence": "encontrei ⟨ joão ⟩ ontem",
+        "equal": false
+      },
+      {
+        "sentence": "⟨ sim ⟩ eu fui",
+        "equal": false
+      }
+    ]
+  }
+}

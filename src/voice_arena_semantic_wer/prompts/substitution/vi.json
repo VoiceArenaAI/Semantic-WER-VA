@@ -1,0 +1,167 @@
+{
+  "language_name": "Vietnamese",
+  "notes": {
+    "7": "In Vietnamese a different tone usually makes a different word."
+  },
+  "examples": {
+    "1": [
+      {
+        "reference": "ti vi",
+        "prediction": "tivi",
+        "equal": true
+      },
+      {
+        "reference": "ờ không",
+        "prediction": "hông",
+        "equal": true,
+        "note": "filler on one side only"
+      },
+      {
+        "reference": "tôi tôi hông",
+        "prediction": "tôi không",
+        "equal": true,
+        "note": "repetition on one side only"
+      },
+      {
+        "reference": "nh nhà",
+        "prediction": "nhà",
+        "equal": true,
+        "note": "false start on one side only"
+      },
+      {
+        "reference": "không có",
+        "prediction": "hông",
+        "equal": false,
+        "note": "\"có\" dropped"
+      },
+      {
+        "reference": "ờ thăm",
+        "prediction": "tham",
+        "equal": false,
+        "note": "\"thăm\" replaced"
+      }
+    ],
+    "2": [
+      {
+        "reference": "hai mươi lăm",
+        "prediction": "25",
+        "equal": true
+      },
+      {
+        "reference": "mười giờ",
+        "prediction": "10 giờ",
+        "equal": true
+      },
+      {
+        "reference": "năm mươi nghìn đồng",
+        "prediction": "50 nghìn đồng",
+        "equal": true
+      },
+      {
+        "reference": "hai mươi mốt",
+        "prediction": "2 mốt",
+        "equal": false
+      },
+      {
+        "reference": "mười lăm",
+        "prediction": "50",
+        "equal": false
+      }
+    ],
+    "3": [
+      {
+        "reference": "vê tê vê",
+        "prediction": "vtv",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "reference": "kỹ",
+        "prediction": "kĩ",
+        "equal": true
+      },
+      {
+        "reference": "hòa",
+        "prediction": "hoà",
+        "equal": true
+      },
+      {
+        "reference": "nghìn",
+        "prediction": "ngàn",
+        "equal": true
+      },
+      {
+        "reference": "ok",
+        "prediction": "ô kê",
+        "equal": true
+      },
+      {
+        "reference": "facebook",
+        "prediction": "phây búc",
+        "equal": true
+      }
+    ],
+    "5": [
+      {
+        "reference": "không",
+        "prediction": "hông",
+        "equal": true
+      },
+      {
+        "reference": "này",
+        "prediction": "nè",
+        "equal": true
+      },
+      {
+        "reference": "nhé",
+        "prediction": "nhá",
+        "equal": true
+      },
+      {
+        "reference": "vậy",
+        "prediction": "dậy",
+        "equal": true
+      },
+      {
+        "reference": "là",
+        "prediction": "nà",
+        "equal": true
+      }
+    ],
+    "6": [
+      {
+        "reference": "ờ",
+        "prediction": "ừm",
+        "equal": true
+      },
+      {
+        "reference": "ờ",
+        "prediction": "và",
+        "equal": false
+      }
+    ],
+    "7": [
+      {
+        "reference": "ma",
+        "prediction": "má",
+        "equal": false
+      },
+      {
+        "reference": "thăm",
+        "prediction": "tham",
+        "equal": false
+      },
+      {
+        "reference": "và",
+        "prediction": "mà",
+        "equal": false
+      },
+      {
+        "reference": "cũng",
+        "prediction": "cùng",
+        "equal": false
+      }
+    ]
+  }
+}

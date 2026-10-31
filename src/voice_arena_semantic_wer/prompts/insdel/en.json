@@ -1,0 +1,69 @@
+{
+  "language_name": "US English",
+  "examples": {
+    "1": [
+      {
+        "sentence": "i think ⟨ uh ⟩ we should go",
+        "equal": true,
+        "note": "filled pause"
+      },
+      {
+        "sentence": "⟨ mhm ⟩ that makes sense",
+        "equal": true,
+        "note": "non-lexical backchannel"
+      },
+      {
+        "sentence": "it was so funny ⟨ ha ha ⟩",
+        "equal": true,
+        "note": "laughter"
+      },
+      {
+        "sentence": "⟨ oh ⟩ i did not know that",
+        "equal": true,
+        "note": "reaction sound"
+      }
+    ],
+    "2": [
+      {
+        "sentence": "i ⟨ i ⟩ think so",
+        "equal": true
+      },
+      {
+        "sentence": "and she ⟨ and she ⟩ is commenting",
+        "equal": true
+      }
+    ],
+    "3": [
+      {
+        "sentence": "⟨ w ⟩ we went home",
+        "equal": true
+      },
+      {
+        "sentence": "⟨ th ⟩ the main character",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "sentence": "we went ⟨ back ⟩ home",
+        "equal": false
+      },
+      {
+        "sentence": "it was ⟨ not ⟩ good",
+        "equal": false
+      },
+      {
+        "sentence": "i paid ⟨ twenty ⟩ dollars",
+        "equal": false
+      },
+      {
+        "sentence": "i met ⟨ john ⟩ yesterday",
+        "equal": false
+      },
+      {
+        "sentence": "⟨ yeah ⟩ i went there",
+        "equal": false
+      }
+    ]
+  }
+}

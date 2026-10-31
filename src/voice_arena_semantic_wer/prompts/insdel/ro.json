@@ -1,0 +1,69 @@
+{
+  "language_name": "Romanian",
+  "examples": {
+    "1": [
+      {
+        "sentence": "cred ⟨ ă ⟩ că da",
+        "equal": true,
+        "note": "filled pause"
+      },
+      {
+        "sentence": "⟨ mhm ⟩ are sens",
+        "equal": true,
+        "note": "non-lexical backchannel"
+      },
+      {
+        "sentence": "a fost amuzant ⟨ haha ⟩",
+        "equal": true,
+        "note": "laughter"
+      },
+      {
+        "sentence": "⟨ oh ⟩ nu știam asta",
+        "equal": true,
+        "note": "reaction sound"
+      }
+    ],
+    "2": [
+      {
+        "sentence": "am zis că ⟨ că ⟩ vin",
+        "equal": true
+      },
+      {
+        "sentence": "am ⟨ am ⟩ fost acolo",
+        "equal": true
+      }
+    ],
+    "3": [
+      {
+        "sentence": "⟨ m ⟩ mergem acasă",
+        "equal": true
+      },
+      {
+        "sentence": "⟨ fo ⟩ a fost bine",
+        "equal": true
+      }
+    ],
+    "4": [
+      {
+        "sentence": "am mers ⟨ înapoi ⟩ acasă",
+        "equal": false
+      },
+      {
+        "sentence": "⟨ nu ⟩ a fost bine",
+        "equal": false
+      },
+      {
+        "sentence": "am plătit ⟨ douăzeci ⟩ de lei",
+        "equal": false
+      },
+      {
+        "sentence": "am vorbit cu ⟨ ion ⟩ ieri",
+        "equal": false
+      },
+      {
+        "sentence": "⟨ da ⟩ am fost",
+        "equal": false
+      }
+    ]
+  }
+}

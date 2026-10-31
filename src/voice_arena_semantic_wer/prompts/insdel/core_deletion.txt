@@ -1,0 +1,29 @@
+# Task
+You are an expert linguistic analyst for {language_name}. An ASR transcript was aligned word by word
+with the human reference transcript. Below is the REFERENCE sentence (what was said). The words
+marked ⟨− … ⟩ are in the reference, but the ASR model left them out.
+Both are already lowercased and stripped of punctuation; apostrophes are kept.
+Judge only the marked words: decide whether they are only a disfluency, so that leaving them out
+does not change what the speaker said. Ignore everything else in the sentence.
+
+# Rules
+1. A non-lexical vocalization is a disfluency: a sound that is not a word, such as a filled
+   pause, a non-lexical backchannel, laughter or a reaction sound.{note_1}
+{examples_1}
+
+2. An immediate repetition of a neighbouring word or phrase is a disfluency.
+{examples_2}
+
+3. A false start, a cut-off fragment the speaker restarts, is a disfluency.
+{examples_3}
+
+4. Only rules 1–3 are disfluencies. Any other real word is NOT a disfluency, even when it adds
+   little or nothing to the meaning of the sentence.{note_4}
+{examples_4}
+
+5. When unsure, answer False.
+
+# Output
+Output only True if the marked words are only a disfluency under the rules, or False if not. Nothing else.
+
+Reference: {sentence}
