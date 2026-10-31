@@ -5,7 +5,7 @@ import os
 import threading
 from pathlib import Path
 
-DEFAULT_PATH = Path(os.environ.get("VA_SEMANTIC_WER_CACHE", Path.home() / ".cache" / "voice_arena_semantic_wer" / "verdicts.jsonl"))
+DEFAULT_PATH = Path(os.environ.get("VA_SEMANTIC_WER_CACHE", Path.home() / ".cache" / "va_semantic_wer" / "verdicts.jsonl"))
 FIELDS = ("task", "language", "model", "ref", "hyp")
 
 

@@ -11,13 +11,13 @@ _CORE = {"substitution": "core.txt", "insertion": "core_insertion.txt", "deletio
 
 
 def _read(task: str, name: str) -> str:
-    return resources.files(f"voice_arena_semantic_wer.prompts.{_FOLDER[task]}").joinpath(name).read_text(encoding="utf-8")
+    return resources.files(f"va_semantic_wer.prompts.{_FOLDER[task]}").joinpath(name).read_text(encoding="utf-8")
 
 
 def available_languages() -> list[str]:
     langs = None
     for folder in set(_FOLDER.values()):
-        root = resources.files(f"voice_arena_semantic_wer.prompts.{folder}")
+        root = resources.files(f"va_semantic_wer.prompts.{folder}")
         found = {p.name.removesuffix(".json") for p in root.iterdir() if p.name.endswith(".json")}
         langs = found if langs is None else langs & found
     return sorted(langs)

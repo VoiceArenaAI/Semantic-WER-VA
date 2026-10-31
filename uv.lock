@@ -1614,7 +1614,7 @@ wheels = [
 ]
 
 [[package]]
-name = "voice-arena-semantic-wer"
+name = "va-semantic-wer"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

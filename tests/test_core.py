@@ -1,8 +1,8 @@
 import pytest
 
-from voice_arena_semantic_wer import SemanticWER, available_languages, normalize, segments, substitution_prompt
-from voice_arena_semantic_wer.backends import Backend, parse_verdict
-from voice_arena_semantic_wer.prompting import deletion_template, insertion_template, mark_deletion, mark_insertion, substitution_template
+from va_semantic_wer import SemanticWER, available_languages, normalize, segments, substitution_prompt
+from va_semantic_wer.backends import Backend, parse_verdict
+from va_semantic_wer.prompting import deletion_template, insertion_template, mark_deletion, mark_insertion, substitution_template
 
 
 def test_normalize_keeps_spoken_symbols():

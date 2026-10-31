@@ -12,7 +12,7 @@ def main(argv=None) -> None:
     ap.add_argument("--hyp", required=True, nargs="+", help="hypothesis column(s)")
     ap.add_argument("--model", default=None, help="override the judge model id")
     ap.add_argument("--api-key", default=None, help="else GEMINI_API_KEY")
-    ap.add_argument("--cache", default=None, help="cache file (default ~/.cache/voice_arena_semantic_wer/verdicts.jsonl)")
+    ap.add_argument("--cache", default=None, help="cache file (default ~/.cache/va_semantic_wer/verdicts.jsonl)")
     ap.add_argument("--per-utterance", default=None, help="write per-utterance results to this CSV")
     args = ap.parse_args(argv)
 

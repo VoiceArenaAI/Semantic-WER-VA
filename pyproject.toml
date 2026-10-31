@@ -3,26 +3,31 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "voice-arena-semantic-wer"
+name = "va-semantic-wer"
 version = "0.1.0"
-description = "LLM-based semantic WER for ASR evaluation (Voice Arena)"
+description = "Official scorer for the Voice Arena Conversational ASR Leaderboard"
+readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
+license-files = ["LICENSE"]
 dependencies = [
     "jiwer>=3.0",
     "google-genai>=1.0",
     "ftfy>=6.0",
 ]
 
+[project.urls]
+Repository = "https://github.com/VoiceArenaAI/Semantic-WER-Voice-Arena"
+
 [project.optional-dependencies]
 cli = ["pandas>=2.0"]
 dev = ["pytest>=7", "pandas>=2.0"]
 
 [project.scripts]
-va-semantic-wer = "voice_arena_semantic_wer.cli:main"
+va-semantic-wer = "va_semantic_wer.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/voice_arena_semantic_wer"]
+packages = ["src/va_semantic_wer"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
