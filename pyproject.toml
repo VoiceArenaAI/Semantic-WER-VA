@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "va-semantic-wer"
-version = "0.1.1"
+version = "0.1.2"
 description = "Official scorer for the Voice Arena Conversational ASR Leaderboard"
 readme = "README.md"
 requires-python = ">=3.10"
