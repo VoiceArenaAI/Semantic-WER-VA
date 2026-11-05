@@ -14,6 +14,16 @@ def test_normalize_keeps_spoken_symbols():
     assert normalize("50 %") == "50 %"
     assert normalize("٥٠٪ و 3٫5") == "٥٠٪ و 3٫5"
     assert normalize("10‰ at 20°") == "10‰ at 20°"
+
+
+def test_normalize_keeps_web_address_dots():
+    assert normalize("ULE.com, ULA LA.") == "ule.com ula la"
+    assert normalize("Am văzut pe vizitcovasna.com.") == "am văzut pe vizitcovasna.com"
+    assert normalize("Fundable.com, Patreon.com, Kickstarter") == "fundable.com patreon.com kickstarter"
+    assert normalize("U-L-E dot com") == "u l e dot com"
+    assert normalize("I went home. Com is short for comedy.") == "i went home com is short for comedy"
+    assert normalize("the U.S. and e.g. this") == "the u s and e g this"
+    assert normalize("if we do B.Com then") == "if we do b com then"
     assert normalize("₺100 or ₩500") == "₺100 or ₩500"
 
 

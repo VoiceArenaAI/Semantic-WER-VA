@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "va-semantic-wer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Official scorer for the Voice Arena Conversational ASR Leaderboard"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/VoiceArenaAI/Semantic-WER-Voice-Arena"
+Repository = "https://github.com/VoiceArenaAI/Semantic-WER-VA"
 
 [project.optional-dependencies]
 cli = ["pandas>=2.0"]
